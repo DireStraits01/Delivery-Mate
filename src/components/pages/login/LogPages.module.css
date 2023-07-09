@@ -1,0 +1,96 @@
+/*___________________________________ LOGIN */
+.button_wrapper_login {
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 350px;
+  width: 300px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  border: 10px solid #ffc800;
+}
+.button_login_h2 {
+  letter-spacing: 2px;
+}
+.button_login_input {
+  width: 250px;
+  height: 35px;
+  border: 1.5px solid #d8d7d7fb;
+  padding-left: 15px;
+  border-radius: 8px;
+  margin: 10px;
+}
+.button_login_input:focus {
+  border: 1.5px solid #0fb8f8;
+  background-color: rgb(237 249 255);
+}
+.button_login_forgot_password {
+  font-weight: bold;
+  font-size: 13px;
+  width: 90%;
+  color: #0fb8f8;
+  cursor: pointer;
+}
+
+.button_login_forgot_password:active {
+  color: #4fccfa;
+}
+.button_login {
+  background-color: #0fb8f8;
+  color: #fff;
+  border-radius: 8px;
+  width: 270px;
+  border: none;
+  height: 35px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button_login:active {
+  transform: scale(0.96);
+  background-color: #4fccfa;
+}
+.button_login_p {
+  font-size: 10px;
+}
+.button_login_p > span {
+  font-weight: bold;
+  font-size: 10px;
+  color: #0fb8f8;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button_login_p > span:hover {
+  color: #b0e2f4;
+}
+
+/*___________________________________REGISTRATION */
+.button_wrapper_signup {
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 450px;
+  width: 300px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5%;
+  border: 10px solid #ffc800;
+}
+.button_signup {
+  margin-top: 40px;
+  background-color: #0fb8f8;
+  color: #fff;
+  border-radius: 8px;
+  width: 270px;
+  border: none;
+  height: 35px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.button_signup:active {
+  transform: scale(0.96);
+  background-color: #4fccfa;
+}
