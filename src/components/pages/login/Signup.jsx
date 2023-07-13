@@ -13,7 +13,7 @@ function Signup() {
           <input
             className={style.button_login_input}
             type="text"
-            placeholder="enter your email"
+            placeholder="почта"
           />
           <input
             className={style.button_login_input}

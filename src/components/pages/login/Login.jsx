@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './LogPages.module.css';
 import { NavLink } from 'react-router-dom';
+// import {Si1Password} from 'react-icons/si'
 import travell from '../../graphics/travell.png';
 function Login() {
   return (

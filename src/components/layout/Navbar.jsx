@@ -19,10 +19,10 @@ function Navbar() {
         <ul>
           <li>
             <NavLink
-              to="/laptops"
+              to="/role"
               className={({ isActive }) => (isActive ? style.activeLink : '')}
             >
-              Ноутбуки
+              добавить объявление
             </NavLink>
           </li>
 
