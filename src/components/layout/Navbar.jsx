@@ -19,7 +19,7 @@ function Navbar() {
         <ul>
           <li>
             <NavLink
-              to="/createAd"
+              to="/CreateAd"
               className={({ isActive }) => (isActive ? style.activeLink : '')}
             >
               добавить объявление
