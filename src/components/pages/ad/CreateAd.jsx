@@ -22,29 +22,25 @@ function CreateAd() {
                   курьер
                 </label>
               </div>
-              <div className="textInput">
-                <div className="col_label">
-                  <label htmlFor="cityDeparture">Город отправления:</label>
-                  <label htmlFor="cityDelivery">Город прибытия:</label>
-                  <label htmlFor="date">Дата:</label>
+              <div className="adOptions">
+                <div className="col">
+                  <label htmlFor="cityDeparture">отправления из:</label>
+                  <label htmlFor="cityDelivery">прибытия в:</label>
+                  <label htmlFor="date">дата:</label>
+                  <label htmlFor="message">инфо:</label>
                 </div>
-
-                <div className="col_input">
+                <div className="col">
                   <input type="text" id="cityDeparture" />
                   <input type="text" id="cityDelivery" />
-                  <input type="date" id="date" />
+                  <input type="date" id="date" />{' '}
+                  <textarea name="" id="" cols="5" rows="7"></textarea>
                 </div>
               </div>
-
-              {/* <label htmlFor="startCity" className="textareaForm">
-                дополнительная информация:&nbsp;
-                <textarea name="" id="" cols="10" rows="30"></textarea>
-              </label> */}
-              <div className="form_btns">
-                <button type="submit">Отправить</button>
-                <button>Назад</button>
-              </div>
             </fieldset>
+            <div className="form_btns">
+              <button type="submit">Отправить</button>
+              <button>Назад</button>
+            </div>
           </form>
         </div>
       </div>
