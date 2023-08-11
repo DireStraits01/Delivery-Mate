@@ -19,7 +19,7 @@ function Navbar() {
         <ul>
           <li>
             <NavLink
-              to="/CreateAd"
+              to="/createAd"
               className={({ isActive }) => (isActive ? style.activeLink : '')}
             >
               добавить объявление
@@ -33,6 +33,14 @@ function Navbar() {
               className={({ isActive }) => (isActive ? style.activeLink : '')}
             >
               <IoIosLogIn />
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/profile"
+              className={({ isActive }) => (isActive ? style.activeLink : '')}
+            >
+              profile
             </NavLink>
           </li>
         </ul>
